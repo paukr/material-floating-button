@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       main: {
         files: [{
           expand: true,
-          cwd: 'src',
+          cwd: 'dist',
           src: ['mfb.css', '!*.min.css'],
           dest: 'dist',
           ext: '.min.css'
